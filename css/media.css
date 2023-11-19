@@ -1,0 +1,325 @@
+@media(max-width: 1024px) {
+
+    /* ____________________ GLOBAL ____________________ */
+
+    .container {
+        max-width: 850px;
+    }
+
+    /* ____________________ MAIN ____________________ */
+
+    .main {
+        padding-top: 97px;
+    }
+
+    /* __________ Converter currency __________ */
+
+    .converter__title {
+        font-size: 30px;
+        line-height: 21px;
+    }
+
+    .converter__block {
+        flex-direction: column;
+    }
+
+    .converter__leftblock,
+    .converter__rightblock {
+        padding-top: 6px;
+    }
+
+    .converter__rightblock {
+        position: relative;
+        top: -27px;
+        display: flex;
+    }
+
+    .rightblock__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        order: 1;
+    }
+
+    .leftblock__wrapper::before,
+    .rightblock__wrapper::before {
+        height: 56px;
+        padding: 19px 81px;
+    }
+
+    .leftblock__wrapper::after,
+    .rightblock__wrapper::after {
+        width: 164px;
+        height: 56px;
+        background: url('../img/converter__select-down-1024px.png') no-repeat center;
+    }
+
+    .leftblock__label,
+    .rightblock__label {
+        padding-bottom: 24px;
+        font-size: 24px;
+        line-height: 0px;
+    }
+
+    .leftblock__select,
+    .rightblock__select {
+        height: 56px;
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 200px;
+    }
+
+    .leftblock__input,
+    .rightblock__input {
+        padding-top: 61px;
+        font-size: 56px;
+        line-height: 76px;
+    }
+
+    .converter__middleblock {
+        align-self: flex-end;
+        padding: 8px 0;
+    }
+
+    .converter__middleblockbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 88px;
+        height: 88px;
+        border-radius: 100%;
+        background-color: var(--color_white);
+        box-shadow: 1px 1px 20px var(--color_gray-2);
+    }
+
+    .converter__middleblockbtn-icon {
+        display: none;
+    }
+
+    .converter__middleblockbtn-icon-cycle {
+        display: block;
+        stroke: var(--color_black);
+        transition: stroke 0.25s ease;
+    }
+
+    .converter__middleblockbtn-icon-cycle:active {
+        stroke: var(--color_sapphire);
+        transition: stroke 0.25s ease;
+    }
+
+    /* __________ Currencies __________ */
+
+    .currencies {
+        padding-top: 139px;
+    }
+
+    .currencies__title {
+        max-width: 240px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* ____________________ TABLE (MOBILE) ____________________ */
+
+    .table {
+        display: none;
+    }
+
+    .mobiletable {
+        display: block;
+        border: 1px solid var(--color_gray-2);
+        border-bottom: 0;
+    }
+
+    .mobiletable__list {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .mobiletable__list:nth-child(2n-1) {
+        background-color: var(--color_gray-1);
+    }
+
+    .mobiletable__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--color_gray-2);
+    }
+
+    .mobiletable__header-code,
+    .mobiletable__header-unit,
+    .mobiletable__header-currency,
+    .mobiletable__header-basecurrency,
+    .mobiletable__body-code,
+    .mobiletable__body-unit,
+    .mobiletable__body-currency,
+    .mobiletable__body-basecurrency {
+        padding: 16px;
+        padding-left: 22px;
+        padding-top: 17px;
+    }
+
+    .mobiletable__header-basecurrency {
+        padding-right: 0px;
+        max-width: 120px;
+    }
+
+    .mobiletable__body-code,
+    .mobiletable__body-unit,
+    .mobiletable__body-currency,
+    .mobiletable__body-basecurrency {
+        display: flex;
+        justify-content: flex-start;
+        width: 51%;
+        padding-top: 17px;
+    }
+
+    .mobiletable__body-unit,
+    .mobiletable__body-currency {
+        color: var(--color_gray-3);
+    }
+
+    .mobiletable__body-basecurrency {
+        font-weight: 700;
+    }
+
+    .mobiletable__body-code-flag {
+        margin-right: 8px;
+    }
+}
+
+@media(max-width: 998px) {
+
+    /* ____________________ MAIN ____________________ */
+
+    .main {
+        padding-top: 58px;
+    }
+
+    /* __________ Converter currency __________ */
+
+    .converter__title {
+        padding-left: 7px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .converter__block {
+        padding-top: 42px;
+        padding-left: 7px;
+    }
+
+    .converter__rightblock {
+        top: -32px;
+    }
+
+    .leftblock__label,
+    .rightblock__label {
+        font-size: 22px;
+        line-height: 0px;
+    }
+
+    .leftblock__select,
+    .rightblock__select {
+        padding-left: 0;
+        height: 40px;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .leftblock__wrapper::before,
+    .rightblock__wrapper::before {
+        height: 40px;
+        padding: 19px 30px;
+    }
+
+    .leftblock__wrapper::after,
+    .rightblock__wrapper::after {
+        width: 60px;
+        height: 40px;
+        background: url('../img/converter__select-down-360px.png') no-repeat center;
+    }
+
+    .leftblock__input,
+    .rightblock__input {
+        padding-top: 40px;
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .converter__middleblock {
+        align-self: flex-end;
+        padding: 17px 7px;
+    }
+
+    .converter__middleblockbtn {
+        width: 64px;
+        height: 64px;
+    }
+
+    .converter__middleblockbtn-icon-cycle {
+        display: none;
+    }
+
+    .converter__middleblockbtn-icon-cycletwo {
+        display: block;
+        stroke: var(--color_black);
+        transition: stroke 0.25s ease;
+    }
+
+    .converter__middleblockbtn-icon-cycletwo:active {
+        display: block;
+        stroke: var(--color_sapphire);
+        transition: stroke 0.25s ease;
+    }
+
+    /* __________ Currencies __________ */
+
+    .currencies {
+        padding-top: 76px;
+    }
+
+    .currencies__title {
+        max-width: 180px;
+        padding-left: 7px;
+        padding-bottom: 40px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    /* ____________________ TABLE (MOBILE) ____________________ */
+
+    .mobiletable__list {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .mobiletable__header-code,
+    .mobiletable__header-unit,
+    .mobiletable__header-currency,
+    .mobiletable__header-basecurrency,
+    .mobiletable__body-code,
+    .mobiletable__body-unit,
+    .mobiletable__body-currency,
+    .mobiletable__body-basecurrency {
+        padding: 18px;
+    }
+
+    .mobiletable__header-code,
+    .mobiletable__header-unit,
+    .mobiletable__header-currency,
+    .mobiletable__header-basecurrency {
+        padding-left: 27px;
+    }
+}
+
+@media(max-width: 320px) {
+
+    /* ____________________ GLOBAL ____________________ */
+
+    .container {
+        max-width: 346px;
+    }
+}

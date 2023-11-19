@@ -1,0 +1,93 @@
+/* __________ Currencies __________ */
+
+.currencies {
+    padding-top: 121px;
+}
+
+.currencies__title {
+    padding-bottom: 37px;
+}
+
+/* ____________________ TABLE ____________________ */
+
+.mobiletable {
+    display: none;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* __________ Table header __________ */
+
+.table__header {
+    border: 1px solid var(--color_gray-2);
+}
+
+.table__header-col {
+    padding: 22px;
+    padding-left: 23px;
+    padding-right: 0;
+    text-align: left;
+    background-color: var(--color_gray-1);
+}
+
+.table__header-col:nth-child(1) {
+    width: 14%;
+}
+
+.table__header-col:nth-child(2) {
+    width: 14%;
+}
+
+.table__header-col:nth-child(3) {
+    width: 33%;
+}
+
+.table__header-col:nth-child(4) {
+    width: 36%;
+}
+
+
+.header-col {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* __________ Table body __________ */
+
+.table__body-row {
+    border: 1px solid var(--color_gray-2);
+}
+
+.table__body-col {
+    padding: 20px;
+    padding-left: 23px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.body-col {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.body-col__code {
+    display: flex;
+    align-items: center;
+}
+
+.body-col__code-flag {
+    margin-right: 8px;
+}
+
+.body-col__unit {
+    color: var(--color_gray-3);
+}
+
+.body-col__currency {
+    color: var(--color_gray-3);
+}

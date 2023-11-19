@@ -1,0 +1,64 @@
+/* ____________________ DEFAULT ____________________ */
+
+:root {
+    --color_black: #000000;
+    --color_white: #FFFFFF;
+    --color_gray-1: #F2F5F5;
+    --color_gray-2: #C0CAD6;
+    --color_gray-3: #777F85;
+    --color_sapphire: #287EA2;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

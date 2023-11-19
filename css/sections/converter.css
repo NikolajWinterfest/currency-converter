@@ -1,0 +1,140 @@
+/* ____________________ MAIN ____________________ */
+
+.main {
+    padding-top: 128px;
+    padding-bottom: 162px;
+}
+
+/* __________ Converter currency __________ */
+
+.converter__title {
+    padding-top: 2px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+}
+
+.converter__block {
+    padding-top: 50px;
+}
+
+.converter__leftblock,
+.converter__rightblock {
+    flex-direction: column;
+    width: 100%;
+}
+
+.leftblock__wrapper,
+.rightblock__wrapper {
+    position: relative;
+}
+
+.leftblock__wrapper::after,
+.rightblock__wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 60px;
+    height: 40px;
+    background: url('../../img/converter__select-down.png') no-repeat center;
+    pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.wrapper--active.leftblock__wrapper::after,
+.wrapper--active.rightblock__wrapper::after {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.leftblock__wrapper::before,
+.rightblock__wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 19px 30px;
+    border: 1px solid var(--color_gray-2);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: var(--color_white);
+    pointer-events: none;
+}
+
+.leftblock__label,
+.rightblock__label {
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--color_gray-3);
+}
+
+.leftblock__select,
+.rightblock__select {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-bottom: 24px;
+    padding-left: 69px;
+    border: 1px solid var(--color_gray-2);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--color_white);
+    background-color: var(--color_sapphire);
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+}
+
+.leftblock__currencies,
+.rightblock__currencies {
+    color: var(--color_black);
+    background-color: var(--color_white);
+}
+
+.leftblock__input,
+.rightblock__input {
+    width: 100%;
+    padding: 32px 0 42px 24px;
+    border: 1px solid var(--color_gray-2);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--color_black);
+    background-color: var(--color_white);
+}
+
+.converter__middleblock {
+    padding: 0 65px;
+    padding-top: 137px;
+}
+
+.converter__middleblockbtn-icon {
+    fill: var(--color_black);
+    cursor: pointer;
+    transition: fill 0.25s ease;
+}
+
+@media(any-hover: hover) {
+    .converter__middleblockbtn-icon:hover {
+        fill: var(--color_sapphire);
+        transition: fill 0.25s ease;
+    }
+}
+
+.converter__middleblockbtn-icon:active {
+    fill: var(--color_gray-3);
+    transition: fill 0.25s ease;
+}
+
+.converter__middleblockbtn-icon-cycle,
+.converter__middleblockbtn-icon-cycletwo {
+    display: none;
+}

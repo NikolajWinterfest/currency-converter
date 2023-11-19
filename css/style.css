@@ -1,0 +1,14 @@
+/* Fonts */
+@import url('fonts/fonts.css');
+
+/* Default Settings */
+@import url('globals/default.css');
+
+/* Global Settings */
+@import url('globals/global.css');
+
+/* Converter Currency */
+@import url('sections/converter.css');
+
+/* Currencies and Table */
+@import url('sections/currencies.css');
