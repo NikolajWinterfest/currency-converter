@@ -1,7 +1,7 @@
 ## О проекте
 
 <div>
-  <img src="/Euclid_Project-solutions.png" title="Euclid" alt="Euclid" />&nbsp;
+  <img src="/Currency-converter.png" title="Currency-converter" alt="Currency-converter" />&nbsp;
 </div>
 
 ### Цель проекта:
