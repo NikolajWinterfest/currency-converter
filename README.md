@@ -6,7 +6,7 @@
 
 ### Цель проекта:
 
-Сверстать лендинг страницу по HTML макету [Конвертер валют](<https://www.figma.com/file/UOcDq2Kg7tGvwihdzHcvEE/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B5%D1%80-%D0%B2%D0%B0%D0%BB%D1%8E%D1%82.-(Copy)?type=design&node-id=0-1&mode=design&t=f9yvCjEwlQWjRER0-0>)
+Сверстать лендинг страницу по макету [Конвертер валют](<https://www.figma.com/file/UOcDq2Kg7tGvwihdzHcvEE/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B5%D1%80-%D0%B2%D0%B0%D0%BB%D1%8E%D1%82.-(Copy)?type=design&node-id=0-1&mode=design&t=f9yvCjEwlQWjRER0-0>)
 
 ### Задачи проекта:
 
