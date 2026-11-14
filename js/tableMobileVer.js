@@ -5,18 +5,15 @@ export const mobileTable = async () => {
     // EXTRACTING ELEMENT //
     const table = document.getElementById('tableOfExchangeRate-mobile')
 
-    // FLAGS 'img' FOR "tbody" //
-    const flagOfCountry = Object.values(flagsOfCountries)
-
     // API data of currency //
     const objectOfCurrencyData = await getObject()
     const currencyDataValuteKeys = Object.keys(objectOfCurrencyData.Valute)
 
-    for (let i = 0; i < 37; i++) {
+    for (let i = 0; i < currencyDataValuteKeys.length; i++) {
         const currencyKey = currencyDataValuteKeys[i]
         const currency = objectOfCurrencyData.Valute[currencyKey]
 
-        const flag = flagOfCountry[i]
+        const flag = flagsOfCountries[`flag${currency.CharCode}`] || ''
         // CREATE ELEMENT'S //
         const tableList = document.createElement('ul')
         const tableItemOne = document.createElement('li')
