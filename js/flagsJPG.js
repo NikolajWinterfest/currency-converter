@@ -36,4 +36,9 @@ export const flagsOfCountries = {
     flagUZS: `<img class="code-flag__icon" src="./img/flags/UZS.jpg" alt="UZS flag">`,
     flagUAH: `<img class="code-flag__icon" src="./img/flags/UAH.jpg" alt="UAH flag">`,
     flagCZK: `<img class="code-flag__icon" src="./img/flags/CZK.jpg" alt="CZK flag">`,
+    flagZAR: `<img class="code-flag__icon" src="./img/flags/ZAR.jpg" alt="ZAR flag">`,
+    flagKRW: `<img class="code-flag__icon" src="./img/flags/KRW.jpg" alt="KRW flag">`,
+    flagSEK: `<img class="code-flag__icon" src="./img/flags/SEK.jpg" alt="SEK flag">`,
+    flagCHF: `<img class="code-flag__icon" src="./img/flags/CHF.jpg" alt="CHF flag">`,
+    flagJPY: `<img class="code-flag__icon" src="./img/flags/JPY.jpg" alt="JPY flag">`,
 }
